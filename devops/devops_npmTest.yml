@@ -7,7 +7,7 @@ phases:
   install:
     commands:
       - echo building TPIP front end application
-      - cd npm_test
+      - cd npm
       # - echo start install yarn
       # - npm install -g yarn
       # - echo Finished installing yarn
