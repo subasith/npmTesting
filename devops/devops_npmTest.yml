@@ -15,6 +15,5 @@ phases:
     commands:
       - echo build and copy files to S3 bucket
       - node test.js
-      - aws s3 sync --delete build/ s3://tpip-npm-test
       - echo Finished copied to s3 bucket
 
